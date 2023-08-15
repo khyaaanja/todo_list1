@@ -1,0 +1,15 @@
+{
+    "builds": [{
+        "src": "todo_list/wsgi.py",
+        "use": "vercel/python"      
+    }],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "todo_list/wsgi.py"
+        }
+      ],
+      "env": {
+        "DJANGO_SETTINGS_MODULE": "your_django_project.settings" } 
+        
+}

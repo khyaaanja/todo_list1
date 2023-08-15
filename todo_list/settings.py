@@ -25,7 +25,7 @@ SECRET_KEY = '$ut(vct-vmp_m1w_e%qs%zsa5wg%vo+!4&k039hzvz-4g$h1xs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
